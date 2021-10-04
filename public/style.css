@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+}
+
+html {
+  background-color: #222;
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* your CSS below! */
+td {
+  background-color: lightgray;
+  width: 10px;
+  height: 10px;
+}
+
+#options-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0rem 5rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.options > * {
+  margin: .2rem 1rem;
+}
+
+.table-container {
+  position: relative;
+  top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.side-options {
+  position: relative;
+  top: 3rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#conways-game {
+  padding: 1rem .5rem;
+}
+
+#speed {
+  padding: .5rem 0rem;
+}
+
+small {
+  margin-top: 5rem;
+  font-size: 50%;
+}
